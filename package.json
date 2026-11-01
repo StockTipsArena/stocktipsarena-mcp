@@ -1,0 +1,30 @@
+{
+  "name": "stocktipsarena-mcp",
+  "version": "1.0.0",
+  "description": "Model Context Protocol (MCP) server for Indian equity (NSE) analyst consensus targets, horizon accuracy benchmarks, and SEBI-verified research analyst directories on StockTipsArena (https://stocktipsarena.com).",
+  "homepage": "https://stocktipsarena.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StockTipsArena/stocktipsarena-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/StockTipsArena/stocktipsarena-mcp/issues"
+  },
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.mjs",
+  "bin": {
+    "stocktipsarena-mcp": "./src/index.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "indian-stock-market",
+    "nse",
+    "sebi",
+    "stock-price-target",
+    "stocktipsarena",
+    "fintech",
+    "finance"
+  ]
+}
